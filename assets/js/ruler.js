@@ -47,8 +47,8 @@ var rule = function(params){
 		$(document).on('mouseleave', '.ruler-rule', function () {		     
 			//üzerinden gidinceki şey
 		});
-		$(document).on('click', '.rule-add', function () {		     
-			//çoğalt
+		$(document).on('click', that.settings.selector+' .rule-add' , function () {		     
+			//çoğalt 
 			that.makeRule();
 			
 		});
